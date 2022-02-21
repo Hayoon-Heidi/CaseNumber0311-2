@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 1484212937}
   - component: {fileID: 1484212936}
   - component: {fileID: 1484212938}
+  - component: {fileID: 1484212939}
   m_Layer: 0
   m_Name: Character_Star
   m_TagString: Player
@@ -322,5 +323,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580b4f7603232ca44972301e50b7d501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.025
-  runSpeed: 0.04
+  speed: 0.02
+  runSpeed: 0.02
+  walkCount: 32
+--- !u!95 &1484212939
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484212935}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44bf2289f4b5c854bb6dc95cb24df8b9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
