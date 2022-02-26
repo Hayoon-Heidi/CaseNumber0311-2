@@ -51,6 +51,9 @@ TagManager:
   - name: Character
     uniqueID: 2619640965
     locked: 0
-  - name: AvodeObject
+  - name: AvobeObject
     uniqueID: 2459382775
+    locked: 0
+  - name: BlackSpace
+    uniqueID: 1369960717
     locked: 0
